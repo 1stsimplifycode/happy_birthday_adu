@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 50th Birthday Adu!</title>
+    <style>
+        body {
+            background-image: url('rainbow.jpg'); /* Replace with your background image file name */
+            background-size: cover;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .content {
+            padding: 50px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            margin: auto;
+            width: 80%;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        h2 {
+            font-size: 2em;
+            margin-top: 30px;
+        }
+        video, audio {
+            display: block;
+            margin: 20px auto;
+        }
+        video {
+            width: 1000px; /* Adjust the width to your preferred size */
+            height: 400px; /* Adjust the height to maintain aspect ratio */
+        }
+        .songs-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+        .song-item {
+            text-align: center;
+        }
+        .singer-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Happy 50th Birthday Adu!</h1>
+        <p><b>On your Golden Jubilee, we celebrate the light you’ve brought into our lives and the love that makes every moment golden.</b></p>
+        
+        <h2>Special Video</h2>
+        <video controls>
+            <source src="Happy Birthday Adu.mp4" type="video/mp4"> <!-- Replace with your video file name -->
+            Your browser does not support the video tag.
+        </video>
+        
+        <h2>Our Songs for You</h2>
+        <div class="songs-container">
+            <div class="song-item">
+                <img src="puku.jpg" alt="Singer 1" class="singer-image"> <!-- Replace with the first singer's image file name -->
+                <audio controls>
+                    <source src="puku.mp3" type="audio/mp3"> <!-- Replace with your first song file name -->
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="song-item">
+                <img src="bhoju.jpg" alt="Singer 2" class="singer-image"> <!-- Replace with the second singer's image file name -->
+                <audio controls>
+                    <source src="BHOJU SONG.mp3" type="audio/mp3"> <!-- Replace with your second song file name -->
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="song-item">
+                <img src="DIDI.png" alt="Singer 3" class="singer-image"> <!-- Replace with the third singer's image file name -->
+                <audio controls>
+                    <source src="didi song.mp3" type="audio/mp3"> <!-- Replace with your third song file name -->
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="song-item">
+                <img src="mummy.jpg" alt="Singer 4" class="singer-image"> <!-- Replace with the fourth singer's image file name -->
+                <audio controls>
+                    <source src="MUMMY.mp3" type="audio/mp3"> <!-- Replace with your fourth song file name -->
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
